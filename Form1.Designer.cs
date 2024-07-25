@@ -37,6 +37,9 @@
             textBox2 = new TextBox();
             label4 = new Label();
             label1 = new Label();
+            button3 = new Button();
+            button4 = new Button();
+            button5 = new Button();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -133,12 +136,42 @@
             label1.TabIndex = 13;
             label1.Text = "BOOKING.COM";
             // 
+            // button3
+            // 
+            button3.Location = new Point(69, 124);
+            button3.Name = "button3";
+            button3.Size = new Size(94, 29);
+            button3.TabIndex = 14;
+            button3.Text = "button3";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(243, 144);
+            button4.Name = "button4";
+            button4.Size = new Size(94, 29);
+            button4.TabIndex = 15;
+            button4.Text = "button4";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            button5.Location = new Point(122, 182);
+            button5.Name = "button5";
+            button5.Size = new Size(94, 29);
+            button5.TabIndex = 16;
+            button5.Text = "button5";
+            button5.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(932, 484);
+            Controls.Add(button5);
+            Controls.Add(button4);
+            Controls.Add(button3);
             Controls.Add(label1);
             Controls.Add(groupBox2);
             Controls.Add(label4);
@@ -163,5 +196,8 @@
         private PictureBox pictureBox1;
         private PictureBox pictureBox3;
         private Label label1;
+        private Button button3;
+        private Button button4;
+        private Button button5;
     }
 }
