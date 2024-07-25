@@ -38,8 +38,7 @@
             label4 = new Label();
             label1 = new Label();
             button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
+            textBox3 = new TextBox();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -138,30 +137,19 @@
             // 
             // button3
             // 
-            button3.Location = new Point(69, 124);
+            button3.Location = new Point(60, 152);
             button3.Name = "button3";
             button3.Size = new Size(94, 29);
             button3.TabIndex = 14;
             button3.Text = "button3";
             button3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // textBox3
             // 
-            button4.Location = new Point(243, 144);
-            button4.Name = "button4";
-            button4.Size = new Size(94, 29);
-            button4.TabIndex = 15;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            button5.Location = new Point(122, 182);
-            button5.Name = "button5";
-            button5.Size = new Size(94, 29);
-            button5.TabIndex = 16;
-            button5.Text = "button5";
-            button5.UseVisualStyleBackColor = true;
+            textBox3.Location = new Point(189, 154);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(232, 27);
+            textBox3.TabIndex = 15;
             // 
             // Form1
             // 
@@ -169,8 +157,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(932, 484);
-            Controls.Add(button5);
-            Controls.Add(button4);
+            Controls.Add(textBox3);
             Controls.Add(button3);
             Controls.Add(label1);
             Controls.Add(groupBox2);
@@ -197,7 +184,6 @@
         private PictureBox pictureBox3;
         private Label label1;
         private Button button3;
-        private Button button4;
-        private Button button5;
+        private TextBox textBox3;
     }
 }
