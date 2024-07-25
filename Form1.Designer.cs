@@ -39,6 +39,7 @@
             label1 = new Label();
             button3 = new Button();
             textBox3 = new TextBox();
+            checkBox1 = new CheckBox();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -151,12 +152,23 @@
             textBox3.Size = new Size(232, 27);
             textBox3.TabIndex = 15;
             // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(135, 192);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(101, 24);
+            checkBox1.TabIndex = 16;
+            checkBox1.Text = "checkBox1";
+            checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(932, 484);
+            Controls.Add(checkBox1);
             Controls.Add(textBox3);
             Controls.Add(button3);
             Controls.Add(label1);
@@ -185,5 +197,6 @@
         private Label label1;
         private Button button3;
         private TextBox textBox3;
+        private CheckBox checkBox1;
     }
 }
